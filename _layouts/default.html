@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bentham&family=Inconsolata:wght@300&family=Major+Mono+Display&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+    <div class="wrapper">  
+      
+      <div class="div-for-navbar">
+        {% include navigation.html %}
+      </div>
+
+      <main class="div-for-main">
+        {{ content }}
+      </main>
+
+    </div>
+
+  </body>
+</html>

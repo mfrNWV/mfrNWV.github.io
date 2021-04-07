@@ -1,0 +1,81 @@
+// font-family: 'Bentham', serif;
+// font-family: 'Inconsolata', monospace;
+// font-family: 'Major Mono Display', monospace;
+// font-family: 'Ubuntu', sans-serif;
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+    --transition-speed: 500ms;
+
+    // Tuxcat colors
+    --tcl-black: black;
+    --tcl-blackish: #1A1A18;
+    --tcl-grey: #CCCCCC;
+    --tcl-whiteish: #FFFCFC;
+    --tcl-white: white;
+    --tcl-yellow: #FADC96;
+    --tcl-lightpink: #FB7EB5;
+    --tcl-darkpink: #CC639E;
+    --tcl-blue: #245778;
+    
+    // background color
+    --bgc-lightblue: #245778;
+    --bgc-dakblue: #144566;
+    --bgc-pink: #D276AA; //buttons-hover
+    --bgc-red: #A0374A;
+    --bgc-white: whitesmoke;
+    --bgc-whiteishi: #D6D2D6; //buttons
+    --bgc-lightlightgrey: #D6D3D5;
+    --bgc-lightgrey: #8B8B8B; //hero
+    --bgc-darkgrey: #292929; //navbar
+    --bgc-black: #0A0A0A;
+}
+
+body {
+    font-size: 17px;
+    font-family: 'Inconsolata', monospace;
+    line-height: 1.2;
+
+    background-color: whitesmoke;
+    color: black;
+    
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    text-align: justify;
+    text-justify: auto;
+}
+
+
+.wrapper {
+    position: static;
+    height: 100%;  
+}
+
+.div-for-navbar {  
+    position: static;
+    display: block;
+    width: 13rem;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex: 0 1 auto;
+    text-align: center;
+}
+
+.div-for-main {   
+    position: static;
+    margin-left: 13rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+}

@@ -1,0 +1,223 @@
+/************************************/
+/******          HERO           *****/
+/************************************/
+
+.hero-div {
+    height: 300px;
+    width: auto;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    // Background properties
+    background-color: var(--bgc-lightgrey);
+    background-image: url(/assets/images/hero-no-sat.svg);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.satellites-fixed {
+    position: absolute;
+    width: 339px;
+}
+
+#tuxcat-box-background {
+    fill: white;
+    opacity: 0.3;
+    filter: blur(20px);
+}
+
+.hero-div-logo {
+    width: 350px;
+    margin: 0px;
+}
+
+.hero-div-logo h1 {
+    border: 3px solid yellowgreen;
+    color: whitesmoke;
+    font-size: 50px;
+    text-align: center;
+    filter: opacity(0%);
+    animation: fadein 2s ease-in 0s forwards;
+}
+
+.hero-div #tuxvec {
+    filter: opacity(0%);
+    animation: fadein 1.75s ease-in 0s forwards;
+}
+
+@keyframes fadein{
+    0% {filter: opacity(0%);}
+    100%{filter: opacity(100%);}
+}
+
+.hero-div-logo #line1{
+    transform: translateY(-100%);
+    animation: l1anim 0.25s linear 0s forwards;
+}
+
+.hero-div-logo #line2 {
+    transform: translateX(100%);
+    animation: l2anim 0.5s linear 0.25s forwards;
+}
+
+.hero-div-logo #line3 {
+    transform: translateY(100%);
+    animation: l3anim 0.25s linear 0.75s forwards;
+}
+
+.hero-div-logo #line4 {
+    transform: translateX(-100%);
+    animation: l4anim 0.5s ease-in 1s forwards;
+}
+
+.hero-div-logo #line5 {
+    transform: translateY(-100%);
+    animation: l5anim 0.25s linear 1.5s forwards;
+}
+
+@keyframes l1anim{
+    0% {transform: translateY(-100%);}
+    100%{transform: translateY(0%);}
+}
+@keyframes l2anim{
+    0% {transform: translateX(100%);}
+    100%{transform: translateX(0%);}
+}
+@keyframes l3anim{
+    0% {transform: translateY(100%);}
+    100%{transform: translateY(0%);}
+}
+@keyframes l4anim{
+    0% {transform: translateX(-100%);}
+    100%{transform: translateX(0%);}
+}
+@keyframes l5anim{
+    0% {transform: translateY(-100%);}
+    100%{transform: translateY(0%);}
+}
+
+/************************************/
+/******      MAIN CONTENT       *****/
+/************************************/
+
+.main-content-div {
+    width: 100%;
+}
+
+.post-box-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.post-box {
+    border: 1px solid yellowgreen;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+}
+
+.post-box-link {
+    background-color: transparent;
+    text-decoration: none;
+    max-width: 100%;
+    display: block;
+}
+
+.post-box-image {
+    width: 100%;
+    height: 20vh;
+    border-bottom: 1px solid yellowgreen;
+    background-color: var(--bgc-lightgrey);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.post-box-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: transparent;
+    overflow: visible;
+    margin: 10px;
+    float: none;
+}
+
+.post-box-content-title {
+    margin-top: -20px;
+    text-decoration: none;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.post-box-h1 {
+    font-family: 'Major Mono Display', monospace;
+    color: var(--bgc-darkgrey);
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 32px;
+}
+
+.post-box-meta {
+    display: flex;
+    margin: 0px;
+    margin-bottom: 10px;
+    justify-content: flex-start;
+    flex: 1;
+    padding-left: 4px;
+    padding-top: 2px;
+}
+
+.post-box-meta-a {
+    color: var(--bgc-darkgrey);
+    text-decoration: none;
+}
+
+.post-box-meta-aut {
+    color: var(--bgc-darkgrey);
+    text-decoration: none;
+}
+
+.text-sep {
+    padding: 0px 16px;
+}
+
+.post-box-meta-cat {
+    color: var(--bgc-darkgrey);
+    text-decoration: none;
+    display: none;
+}
+
+.post-box-text{
+    background-attachment: scroll;
+}
+
+.post-box-text p{
+    background-attachment: scroll;
+    font-family: 'Inconsolata', monospace;
+    margin-top: 0px;
+}
+
+.post-box-text img {
+    display: table;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-box-more {
+    padding-top: 10px;
+    
+    text-decoration: none;
+    color: var(--bgc-darkgrey);
+    font-size: 0.8em;
+}
