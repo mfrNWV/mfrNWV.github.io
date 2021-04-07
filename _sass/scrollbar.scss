@@ -1,5 +1,5 @@
 body::-webkit-scrollbar {
-    width: 0.5rem;
+    width: 0.75rem;
 }
 
 body::-webkit-scrollbar-track {
@@ -7,5 +7,5 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background: var(--bgc-dakblue);
+    background: yellowgreen;
 }
