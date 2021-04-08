@@ -1,10 +1,14 @@
-// font-family: 'Bentham', serif;
-// font-family: 'Inconsolata', monospace;
-// font-family: 'Major Mono Display', monospace;
-// font-family: 'Ubuntu', sans-serif;
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 
 * {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 :root {
@@ -15,7 +19,6 @@
     --bg-secondary: #141418;
     --transition-speed: 500ms;
 
-    // Tuxcat colors
     --tcl-black: black;
     --tcl-blackish: #1A1A18;
     --tcl-grey: #CCCCCC;
@@ -26,16 +29,15 @@
     --tcl-darkpink: #CC639E;
     --tcl-blue: #245778;
     
-    // background color
     --bgc-lightblue: #245778;
     --bgc-dakblue: #144566;
-    --bgc-pink: #D276AA; //buttons-hover
+    --bgc-pink: #D276AA;
     --bgc-red: #A0374A;
     --bgc-white: whitesmoke;
-    --bgc-whiteishi: #D6D2D6; //buttons
+    --bgc-whiteishi: #D6D2D6;
     --bgc-lightlightgrey: #D6D3D5;
-    --bgc-lightgrey: #8B8B8B; //hero
-    --bgc-darkgrey: #292929; //navbar
+    --bgc-lightgrey: #8B8B8B;
+    --bgc-darkgrey: #292929;
     --bgc-black: #0A0A0A;
 }
 
@@ -66,7 +68,9 @@ body {
     width: 13rem;
     padding-left: 0px;
     padding-right: 0px;
-    flex: 0 1 auto;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
     text-align: center;
 }
 
@@ -74,8 +78,18 @@ body {
     position: static;
     margin-left: 13rem;
     
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: stretch;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
 }
