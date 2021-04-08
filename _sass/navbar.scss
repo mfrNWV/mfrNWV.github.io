@@ -199,7 +199,8 @@
 }
 
 .nav-bottom-br hr {
-    color: var(--tcl-darkpink);
+    border-top: 1px solid var(--tcl-darkpink);
+    width: 100%;
     background-color: var(--tcl-darkpink);
 }
 
