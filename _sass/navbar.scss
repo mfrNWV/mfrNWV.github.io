@@ -213,15 +213,24 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding: 0 6px;
-    margin-bottom: 17px;
+}
+
+.nav-bottom-credits a{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .nav-bottom-credits svg {
-    width: 1.3rem;
-    min-width: 1.3rem;
-    margin: 0;
-    color: var(--bgc-whiteishi);
+    width: 5rem;
+    min-width: 5rem;
+    margin-top: 5px;
 }
 
 .text-bottom {
