@@ -29,6 +29,7 @@ url: "https://mfrnwv.github.io" # the base hostname & protocol for your site, e.
 github_username:  mfrnwv
 
 # Build settings
+markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
