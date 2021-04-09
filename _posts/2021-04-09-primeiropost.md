@@ -2,7 +2,7 @@
 layout: post
 title: Seja bem-vindo ao Tuxcat!
 author: Mateus Oliveira Francani
-bg: url(/assets/images/)
+bg: url(/assets/images/fpp.jpg)
 tag: misc
 excerpt_separator: <!--more-->
 ---
