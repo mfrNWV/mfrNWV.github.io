@@ -106,7 +106,7 @@
             justify-content: space-between;
 }
 
-.where-date h2, h3{
+.where-date h2, h3 {
     color: var(--bgc-dakblue);
     margin: 0px;
 }
@@ -115,6 +115,10 @@
     margin: 10px 0px 30px 0px;
     color: var(--bgc-dakblue);
     font-size: 20px;
+}
+
+.cv-section p {
+    margin-bottom: 0px;
 }
 
 .cv-section ul {
