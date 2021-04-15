@@ -11,7 +11,7 @@ Você já ouviu a frase "*Thoughts become things*"?
 
 Pois bem. Há algum tempo tenho pensado em criar este blog para deixar registros do que tenho estudado, com o intuito de me ajudar a relembrar o que escrevi e de ajudar a quem eventualmente apareça por aqui (vai quê, né?!) e esteja interessado nos assuntos.
 
-No *TUXCAT* você vai encontrar informações sobre *Segurança Digital*, *Teoria da Informação e Comunicação*, *Eletrônica* e muitas outras coisas que vou aprendendo e me interessando ao passar dos dias para que possamos aprender juntos!
+No *TUXCAT* você vai encontrar informações sobre *Segurança Digital*, *Teoria da Informação e Comunicação*, *Eletrônica* e muitas outras coisas que vou aprendendo e me interessando ao passar dos dias, para que possamos aprender juntos!
 
 <!--more-->
 
