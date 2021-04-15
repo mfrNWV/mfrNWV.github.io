@@ -50,9 +50,6 @@
 
 .cv-container-content hr{
     color: yellowgreen;
-    border-top: 1px solid yellowgreen;
-    width: 100%;
-    background-color: yellowgreen;
 }
 
 .cv-header {
@@ -90,8 +87,14 @@
 }
 
 .cv-section h1{
+    font-size: 2rem;
     margin: 20px 0px 0px 0px;
     border-bottom: 1px solid black;
+}
+
+.cv-section p {
+    margin: 0;
+    margin-left: 20px;
 }
 
 .where-date {
@@ -104,26 +107,30 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 
 .where-date h2, h3{
     color: var(--bgc-dakblue);
     margin: 0px;
+    margin-bottom: 5px;
 }
 
 .cv-section h4 {
-    margin: 10px 0px 30px 0px;
-    color: var(--bgc-dakblue);
+    margin: 20px 0px 5px 0px;
     font-size: 20px;
+    font-weight: bolder;
+    margin-top: 5px;
 }
 
 .cv-section ul {
     list-style-type: circle;
-    margin: 5px 0px;
+    margin: 5px 0px 5px 5px;
 }
 
 .cv-section-content {
-    margin: 20px 0px;
+    margin: 20px 0px 30px 0px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -149,5 +156,9 @@
     .where-date h2, h3{
         color: var(--bgc-dakblue);
         margin: 0px;
+    }
+
+    .cv-container-content {
+        padding: 0 30px;
     }
 }
